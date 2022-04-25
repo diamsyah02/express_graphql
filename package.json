@@ -1,0 +1,29 @@
+{
+  "name": "express_graphql",
+  "version": "1.0.0",
+  "description": "Express JS with GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diamsyah M Dida",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.0.0",
+    "module-alias": "^2.2.2",
+    "mysql": "^2.18.1"
+  },
+  "_moduleAliases": {
+    "@helpers/*": "helpers/",
+    "@configs/*": "configs/",
+    "@v1/*": "app/v1/"
+  }
+}
