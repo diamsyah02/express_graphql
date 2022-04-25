@@ -1,5 +1,25 @@
 # express_graphql
  GraphQL with Express JS and Clean Architecture
+# Package
+ - express
+ - graphql
+ - express-graphql
+ - knex
+ - mysql
+ - module-alias
+ - jsonwebtoken
+ - bcrypt
+ - cors
+ - body-parser
+ - dotenv
+# Alur Code
+ 1. index.js (root folder)
+ 2. routes.js
+ 3. index.js (schemas folder)
+ 4. queries.js (schemas folder)
+ 5. mutations.js (schemas folder)
+ 6. queries (tiap modul di folder modules)
+ 7. mutations (tiap modul di folder modules)
 # Example Operation
  - Login
   ```
